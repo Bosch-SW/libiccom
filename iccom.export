@@ -1,0 +1,12 @@
+LIBICCOM_1.0 {
+    global:
+        iccom_print_hex_dump;
+        iccom_open_socket;
+        iccom_close_socket;
+        iccom_send_data;
+        iccom_receive_data;
+    local:
+        _fini;
+        _init;
+        __gcov_sort_n_vals;
+};

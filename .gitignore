@@ -1,0 +1,26 @@
+#######################################################################
+# Copyright (c) 2021 Robert Bosch GmbH
+# Artem Gulyaev <Artem.Gulyaev@de.bosch.com>
+#
+# This code is licensed under the Mozilla Public License Version 2.0
+# License text is available in the file ’LICENSE.txt’, which is part of
+# this source code package.
+#
+# SPDX-identifier: MPL-2.0
+#
+#######################################################################
+
+# vim swap files
+*.swp
+*.swo
+
+# CMake build artefacts
+CMakeCache.txt
+*/CMakeFiles/*
+Makefile
+cmake_install.cmake
+
+# build artefacts
+*.so
+*/python3-wrapper/build
+build
